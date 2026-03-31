@@ -8,11 +8,19 @@ namespace InventoryOneSlot
         Chest = 1
     }
 
+    [RequireComponent(typeof(CanvasGroup))]
     public abstract class InventoryPresenterUIBase<T> : MonoBehaviour where T : InteractiveSlotUI<T>
     {
         [SerializeField] protected T[] _slots;
 
-        private IInventoryActionsHandler _handler;
+        protected IInventoryActionsHandler _handler;
+
+        protected CanvasGroup canvasGroup;
+
+        protected virtual void Awake()
+        {
+            canvasGroup = GetComponent<CanvasGroup>();
+        }
 
         protected virtual void Init(IInventoryActionsHandler handler, InventoryType type)
         {
@@ -28,6 +36,30 @@ namespace InventoryOneSlot
             foreach (var slot in _slots)
             {
                 slot.Deinit();
+            }
+        }
+
+        public virtual void Open()
+        {
+            SetCanvasActive(true);
+        }
+
+        public virtual void Close()
+        {
+            SetCanvasActive(false);
+        }
+
+        protected virtual void SetCanvasActive(bool active)
+        {
+            if (active)
+            {
+                canvasGroup.alpha = 1;
+                canvasGroup.blocksRaycasts = true;
+            }
+            else
+            {
+                canvasGroup.alpha = 0;
+                canvasGroup.blocksRaycasts = false;
             }
         }
     }

@@ -1,4 +1,6 @@
 
+using UnityEngine;
+
 namespace InventoryOneSlot
 {
     public class InventoryPlayerPresenterUI : InventoryPresenterUIBase<InventorySlotUI>
