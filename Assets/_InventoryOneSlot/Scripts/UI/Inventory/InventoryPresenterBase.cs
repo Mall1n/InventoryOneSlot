@@ -15,11 +15,11 @@ namespace InventoryOneSlot.UI
 
         protected IInventoryActionsHandler _handler;
 
-        protected CanvasGroup canvasGroup;
+        protected CanvasGroup _canvasGroup;
 
         protected virtual void Awake()
         {
-            canvasGroup = GetComponent<CanvasGroup>();
+            _canvasGroup = GetComponent<CanvasGroup>();
         }
 
         protected virtual void Init(IInventoryActionsHandler handler, InventoryType type)
@@ -55,13 +55,13 @@ namespace InventoryOneSlot.UI
         {
             if (active)
             {
-                canvasGroup.alpha = 1;
-                canvasGroup.blocksRaycasts = true;
+                _canvasGroup.alpha = 1;
+                _canvasGroup.blocksRaycasts = true;
             }
             else
             {
-                canvasGroup.alpha = 0;
-                canvasGroup.blocksRaycasts = false;
+                _canvasGroup.alpha = 0;
+                _canvasGroup.blocksRaycasts = false;
             }
         }
     }

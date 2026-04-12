@@ -57,3 +57,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7465357209e18fc40b6bd4302ece1eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.InventorySlotUI
+  _itemIcon: {fileID: 3815113429332257485}
+  _item:
+    rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!114 &3815113429332257485 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5732213493414762251, guid: 4c19ccebf6bca0540ba8f7028f833726, type: 3}
+  m_PrefabInstance: {fileID: 8898805818193608134}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image

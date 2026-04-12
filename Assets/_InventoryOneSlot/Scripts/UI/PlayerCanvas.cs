@@ -1,29 +1,35 @@
+using InventoryOneSlot.Data;
 using UnityEngine;
 
 namespace InventoryOneSlot.UI
 {
     public class PlayerCanvas : MonoBehaviour
     {
-        [SerializeField] private PlayerInventoryManager playerInventoryManager;
+        [SerializeField] private PlayerInventoryManager _playerInventoryManager;
 
         private void Start()
         {
             ClosePlayerInventory();
         }
 
+        public void AddItemToPlayerInventoryManager(InventoryType inventoryType, Item item)
+        {
+            _playerInventoryManager.AddItemToPlayerInventoryManager(inventoryType, item);
+        }
+
         public void OpenPlayerInventory()
         {
-            playerInventoryManager.PlayerInventoryOpen();
+            _playerInventoryManager.PlayerInventoryOpen();
         }
 
         public void OpenPlayerInventoryChest()
         {
-            playerInventoryManager.PlayerInventoryChestOpen();
+            _playerInventoryManager.PlayerInventoryChestOpen();
         }
 
         public void ClosePlayerInventory()
         {
-            playerInventoryManager.PlayerInventoryCloseAll();
+            _playerInventoryManager.PlayerInventoryCloseAll();
         }
     }
 }

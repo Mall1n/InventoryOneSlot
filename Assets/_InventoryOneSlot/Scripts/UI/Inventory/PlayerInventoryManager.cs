@@ -1,38 +1,50 @@
 using UnityEngine;
 
+using InventoryOneSlot.Data;
+
 namespace InventoryOneSlot.UI
 {
     [RequireComponent(typeof(CanvasGroup))]
     public class PlayerInventoryManager : MonoBehaviour, IInventoryActionsHandler
     {
-        [SerializeField] private InventoryPlayerPresenter playerInventory;
-        [SerializeField] private ChestPresenter chestInventory;
+        [SerializeField] private InventoryPlayerPresenter _playerInventory;
+        [SerializeField] private ChestPresenter _chestInventory;
 
-        private CanvasGroup canvasGroup;
+        [Space(5)]
+        [SerializeField] private IconManager _iconManager;
+
+        private CanvasGroup _canvasGroup;
+
+        // add dictionary <InventoryType, InventoryPresenterBase>
 
         private void Awake()
         {
-            canvasGroup = GetComponent<CanvasGroup>();
+            _canvasGroup = GetComponent<CanvasGroup>();
 
-            playerInventory.Init(this);
-            chestInventory.Init(this);
+            _playerInventory.Init(this);
+            _chestInventory.Init(this);
         }
 
         public void PlayerInventoryOpen()
         {
-            playerInventory.Open();
+            _playerInventory.Open();
         }
 
         public void PlayerInventoryChestOpen()
         {
-            playerInventory.Open();
-            chestInventory.Open();
+            _playerInventory.Open();
+            _chestInventory.Open();
         }
 
         public void PlayerInventoryCloseAll()
         {
-            playerInventory.Close();
-            chestInventory.Close();
+            _playerInventory.Close();
+            _chestInventory.Close();
+        }
+
+        public void AddItemToPlayerInventoryManager(InventoryType inventoryType, Item item)
+        {
+
         }
 
         public void OnSlotClick(InventoryType type, int index)
