@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace InventoryOneSlot
+namespace InventoryOneSlot.UI
 {
-    public class PlayerCanvasUI : MonoBehaviour
+    public class PlayerCanvas : MonoBehaviour
     {
-        [SerializeField] private PlayerInventoryManagerUI playerInventoryManager;
+        [SerializeField] private PlayerInventoryManager playerInventoryManager;
 
         private void Start()
         {

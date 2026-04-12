@@ -1,7 +1,7 @@
 
-namespace InventoryOneSlot
+namespace InventoryOneSlot.UI
 {
-    public interface ISlotActionsHandler<T> where T : InteractiveSlotUI<T>
+    public interface ISlotActionsHandler<T> where T : InteractiveSlot<T>
     {
         void OnSlotClick(T slot);
 

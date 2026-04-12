@@ -1,7 +1,7 @@
 
-namespace InventoryOneSlot
+namespace InventoryOneSlot.UI
 {
-    public class ChestPresenterUI : InventoryPresenterUIBase<ChestSlotUI>
+    public class ChestPresenter : InventoryPresenterBase<ChestSlot>
     {
         public static InventoryType InventoryType = InventoryType.Chest;
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace InventoryOneSlot
+namespace InventoryOneSlot.UI
 {
     public enum InventoryType
     {
@@ -9,7 +9,7 @@ namespace InventoryOneSlot
     }
 
     [RequireComponent(typeof(CanvasGroup))]
-    public abstract class InventoryPresenterUIBase<T> : MonoBehaviour where T : InteractiveSlotUI<T>
+    public abstract class InventoryPresenterBase<T> : MonoBehaviour where T : InteractiveSlot<T>
     {
         [SerializeField] protected T[] _slots;
 
@@ -25,9 +25,11 @@ namespace InventoryOneSlot
         protected virtual void Init(IInventoryActionsHandler handler, InventoryType type)
         {
             _handler = handler;
+            var wrapper = new SlotActionsWrapper<T>(_handler, type);
+
             for (int i = 0; i < _slots.Length; i++)
             {
-                _slots[i].Init(i, new SlotActionsWrapper<T>(_handler, type));
+                _slots[i].Init(i, wrapper);
             }
         }
 
@@ -65,7 +67,7 @@ namespace InventoryOneSlot
     }
 
     // Supportive class-wrapper for InventoryPresenterUIBase
-    public class SlotActionsWrapper<T> : ISlotActionsHandler<T> where T : InteractiveSlotUI<T>
+    public class SlotActionsWrapper<T> : ISlotActionsHandler<T> where T : InteractiveSlot<T>
     {
         private IInventoryActionsHandler _handler;
         private InventoryType _type;

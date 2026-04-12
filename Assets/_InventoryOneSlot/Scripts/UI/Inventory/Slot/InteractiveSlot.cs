@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace InventoryOneSlot
+namespace InventoryOneSlot.UI
 {
-    public abstract class InteractiveSlotUI<T> : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
-        where T : InteractiveSlotUI<T>
+    public abstract class InteractiveSlot<T> : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
+        where T : InteractiveSlot<T>
     {
         public int Index { get; private set; }
 
-        private ISlotActionsHandler<T> _handler;
+        private ISlotActionsHandler<T> _handler; 
 
         public void Init(int index, ISlotActionsHandler<T> handler)
         {

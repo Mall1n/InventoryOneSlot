@@ -1,9 +1,9 @@
 
 using UnityEngine;
 
-namespace InventoryOneSlot
+namespace InventoryOneSlot.UI
 {
-    public class InventoryPlayerPresenterUI : InventoryPresenterUIBase<InventorySlotUI>
+    public class InventoryPlayerPresenter : InventoryPresenterBase<InventorySlot>
     {
         public static InventoryType InventoryType = InventoryType.Player;
 

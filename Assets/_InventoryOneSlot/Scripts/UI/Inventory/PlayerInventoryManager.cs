@@ -1,12 +1,12 @@
 using UnityEngine;
 
-namespace InventoryOneSlot
+namespace InventoryOneSlot.UI
 {
     [RequireComponent(typeof(CanvasGroup))]
-    public class PlayerInventoryManagerUI : MonoBehaviour, IInventoryActionsHandler
+    public class PlayerInventoryManager : MonoBehaviour, IInventoryActionsHandler
     {
-        [SerializeField] private InventoryPlayerPresenterUI playerInventory;
-        [SerializeField] private ChestPresenterUI chestInventory;
+        [SerializeField] private InventoryPlayerPresenter playerInventory;
+        [SerializeField] private ChestPresenter chestInventory;
 
         private CanvasGroup canvasGroup;
 
@@ -42,12 +42,12 @@ namespace InventoryOneSlot
 
         public void OnSlotEnter(InventoryType type, int index)
         {
-            // print($"InventoryType = {type} | index = {index} | Action = {nameof(OnSlotEnter)}");
+            print($"InventoryType = {type} | index = {index} | Action = {nameof(OnSlotEnter)}");
         }
 
         public void OnSlotExit(InventoryType type, int index)
         {
-            // print($"InventoryType = {type} | index = {index} | Action = {nameof(OnSlotExit)}");
+            print($"InventoryType = {type} | index = {index} | Action = {nameof(OnSlotExit)}");
         }
     }
 }
