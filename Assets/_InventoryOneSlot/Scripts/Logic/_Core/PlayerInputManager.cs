@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace InventoryOneSlot.Logic
+namespace InventoryOneSlot.Logic.Core
 {
     public class PlayerInputManager : MonoBehaviour
     {

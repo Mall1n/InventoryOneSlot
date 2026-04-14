@@ -1890,7 +1890,7 @@ GameObject:
   - component: {fileID: 485727802}
   - component: {fileID: 485727803}
   m_Layer: 5
-  m_Name: Icon Manager Presenter
+  m_Name: Icon View Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1930,13 +1930,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _anchor: {fileID: 1493537105}
   _icon: {fileID: 1940042206}
-  currentItem:
-    rid: -2
-  references:
-    version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
 --- !u!225 &485727803
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5850,8 +5843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a3e4b375e9be764caaa2da67fadda9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _playerInventory: {fileID: 797047483}
-  _chestInventory: {fileID: 898691729}
+  _inventoryViewPlayer: {fileID: 797047483}
+  _inventoryViewChest: {fileID: 898691729}
   _iconManager: {fileID: 485727802}
 --- !u!225 &1655673926
 CanvasGroup:
@@ -6276,8 +6269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b13cb744aef4c642adf253bfad7ecf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.Data.DataBase
-  items:
-  - {fileID: 11400000, guid: f82a1c659e785c84ba16c1255b64cf67, type: 2}
+  dataBase: {fileID: 0}
 --- !u!1001 &1782925109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7105,11 +7097,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1493537105}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1940042206
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 using InventoryOneSlot.Data;
 using InventoryOneSlot.UI;
 
-namespace InventoryOneSlot.Logic
+namespace InventoryOneSlot.Logic.Core
 {
     public class GameController : MonoBehaviour
     {
@@ -16,7 +16,7 @@ namespace InventoryOneSlot.Logic
 
         private void Start()
         {
-            Item item = dataBase.GetItem(0);
+            Item item = dataBase.GetItem("Club");
             playerCanvas.AddItemToPlayerInventoryManager(InventoryType.Player, item);
         }
     }

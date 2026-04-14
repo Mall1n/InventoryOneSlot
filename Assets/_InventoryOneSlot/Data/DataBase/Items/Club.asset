@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ddcf293928c5394b9b43d02ac807f62, type: 3}
-  m_Name: Item 1
+  m_Name: Club
   m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.Data.ItemData
   item:
-    _name: First
-    _icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    _name: Club
+    _icon: {fileID: 21300000, guid: 7921c4bff289f944fb88cbfe0b4d4aed, type: 3}

@@ -1,13 +1,13 @@
 
 namespace InventoryOneSlot.UI
 {
-    public interface ISlotActionsHandler<T> where T : InteractiveSlot<T>
+    public interface ISlotActionsHandler
     {
-        void OnSlotClick(T slot);
+        void OnSlotClick(int index);
 
-        void OnSlotEnter(T slot);
+        void OnSlotEnter(int index);
 
-        void OnSlotExit(T slot);
+        void OnSlotExit(int index);
     }
 
     public interface IInventoryActionsHandler

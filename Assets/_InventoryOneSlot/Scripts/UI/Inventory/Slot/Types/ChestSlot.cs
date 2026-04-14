@@ -1,7 +1,7 @@
 
 namespace InventoryOneSlot.UI
 {
-    public class ChestSlot : InteractiveSlot<ChestSlot>
+    public class ChestSlot : InteractiveSlot
     {
 
     }

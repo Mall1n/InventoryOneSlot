@@ -1,58 +1,49 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-using InventoryOneSlot.Data;
 using UnityEngine.UI;
 
 namespace InventoryOneSlot.UI
 {
-    public abstract class InteractiveSlot<T> : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
-        where T : InteractiveSlot<T>
+    public abstract class InteractiveSlot : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
     {
         [SerializeField] private Image _itemIcon;
-        [SerializeReference] private Item _item;
 
-        public int Index { get; private set; }
-        public Item Item { get => _item; }
+        public int index { get; private set; }
 
-        private ISlotActionsHandler<T> _handler;
+        private ISlotActionsHandler _handler;
 
-        public void Init(int index, ISlotActionsHandler<T> handler)
+        public void Init(int index, ISlotActionsHandler handler)
         {
-            Index = index;
+            this.index = index;
             _handler = handler;
         }
 
-        public void SetItem(Item item)
+        public void SetVisual(Sprite icon)
         {
-            _item = item;
-            _itemIcon.sprite = item.Icon;
+            _itemIcon.sprite = icon;
+            _itemIcon.enabled = true;
         }
 
-        public void RemoveItem()
+        public void ResetVisual()
         {
-            _item = null;
             _itemIcon.sprite = null;
-        }
-
-        public void Deinit()
-        {
-            _handler = null;
+            _itemIcon.enabled = false;
         }
 
         public virtual void OnPointerDown(PointerEventData eventData)
         {
-            _handler?.OnSlotClick((T)this);
+            _handler?.OnSlotClick(index);
         }
 
         public virtual void OnPointerEnter(PointerEventData eventData)
         {
-            _handler?.OnSlotEnter((T)this);
+            _handler?.OnSlotEnter(index);
         }
 
         public virtual void OnPointerExit(PointerEventData eventData)
         {
-            _handler?.OnSlotExit((T)this);
+            _handler?.OnSlotExit(index);
         }
     }
 }

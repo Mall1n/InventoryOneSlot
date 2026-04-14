@@ -5,7 +5,7 @@ namespace InventoryOneSlot.UI
 {
     public class PlayerCanvas : MonoBehaviour
     {
-        [SerializeField] private PlayerInventoryManager _playerInventoryManager;
+        [SerializeField] private InventoryScreenView _playerInventoryManager;
 
         private void Start()
         {
@@ -14,7 +14,7 @@ namespace InventoryOneSlot.UI
 
         public void AddItemToPlayerInventoryManager(InventoryType inventoryType, Item item)
         {
-            _playerInventoryManager.AddItemToPlayerInventoryManager(inventoryType, item);
+            _playerInventoryManager.AddItemToPlayerInventory(inventoryType, item);
         }
 
         public void OpenPlayerInventory()

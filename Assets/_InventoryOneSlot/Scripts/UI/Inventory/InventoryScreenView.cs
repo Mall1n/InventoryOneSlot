@@ -1,19 +1,23 @@
 using UnityEngine;
 
 using InventoryOneSlot.Data;
+using InventoryOneSlot.Logic;
+using InventoryOneSlot.Logic.Core;
 
 namespace InventoryOneSlot.UI
 {
     [RequireComponent(typeof(CanvasGroup))]
-    public class PlayerInventoryManager : MonoBehaviour, IInventoryActionsHandler
+    public class InventoryScreenView : MonoBehaviour, IInventoryActionsHandler
     {
-        [SerializeField] private InventoryPlayerPresenter _playerInventory;
-        [SerializeField] private ChestPresenter _chestInventory;
+        [SerializeField] private InventoryView _inventoryViewPlayer;
+        [SerializeField] private InventoryView _inventoryViewChest;
 
         [Space(5)]
-        [SerializeField] private IconManager _iconManager;
+        [SerializeField] private IconView _iconManager;
 
         private CanvasGroup _canvasGroup;
+
+        private DragAndDropPresenter dragAndDropPresenter;
 
         // add dictionary <InventoryType, InventoryPresenterBase>
 
@@ -21,28 +25,35 @@ namespace InventoryOneSlot.UI
         {
             _canvasGroup = GetComponent<CanvasGroup>();
 
-            _playerInventory.Init(this);
-            _chestInventory.Init(this);
+            _inventoryViewPlayer.Init(this, InventoryType.Player);
+            _inventoryViewChest.Init(this, InventoryType.Chest);
+
+            dragAndDropPresenter = new DragAndDropPresenter(_iconManager, PlayerInputManager.Instance.InputActions);
+        }
+
+        private void Update()
+        {
+            dragAndDropPresenter.Tick();
         }
 
         public void PlayerInventoryOpen()
         {
-            _playerInventory.Open();
+            _inventoryViewPlayer.Open();
         }
 
         public void PlayerInventoryChestOpen()
         {
-            _playerInventory.Open();
-            _chestInventory.Open();
+            _inventoryViewPlayer.Open();
+            _inventoryViewChest.Open();
         }
 
         public void PlayerInventoryCloseAll()
         {
-            _playerInventory.Close();
-            _chestInventory.Close();
+            _inventoryViewPlayer.Close();
+            _inventoryViewChest.Close();
         }
 
-        public void AddItemToPlayerInventoryManager(InventoryType inventoryType, Item item)
+        public void AddItemToPlayerInventory(InventoryType inventoryType, Item item)
         {
 
         }

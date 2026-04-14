@@ -9,11 +9,12 @@ namespace InventoryOneSlot.UI
     }
 
     [RequireComponent(typeof(CanvasGroup))]
-    public abstract class InventoryPresenterBase<T> : MonoBehaviour where T : InteractiveSlot<T>
+    public class InventoryView : MonoBehaviour
     {
-        [SerializeField] protected T[] _slots;
+        [SerializeField] protected InteractiveSlot[] _slots;
 
         protected IInventoryActionsHandler _handler;
+        protected InventoryType _type;
 
         protected CanvasGroup _canvasGroup;
 
@@ -22,22 +23,15 @@ namespace InventoryOneSlot.UI
             _canvasGroup = GetComponent<CanvasGroup>();
         }
 
-        protected virtual void Init(IInventoryActionsHandler handler, InventoryType type)
+        public virtual void Init(IInventoryActionsHandler handler, InventoryType type)
         {
             _handler = handler;
-            var wrapper = new SlotActionsWrapper<T>(_handler, type);
+            _type = type;
 
+            var wrapper = new SlotActionsWrapper(handler, type);
             for (int i = 0; i < _slots.Length; i++)
             {
                 _slots[i].Init(i, wrapper);
-            }
-        }
-
-        public virtual void Deinit()
-        {
-            foreach (var slot in _slots)
-            {
-                slot.Deinit();
             }
         }
 
@@ -67,7 +61,7 @@ namespace InventoryOneSlot.UI
     }
 
     // Supportive class-wrapper for InventoryPresenterUIBase
-    public class SlotActionsWrapper<T> : ISlotActionsHandler<T> where T : InteractiveSlot<T>
+    public class SlotActionsWrapper : ISlotActionsHandler
     {
         private IInventoryActionsHandler _handler;
         private InventoryType _type;
@@ -78,8 +72,8 @@ namespace InventoryOneSlot.UI
             _type = type;
         }
 
-        public void OnSlotClick(T slot) => _handler?.OnSlotClick(_type, slot.Index);
-        public void OnSlotEnter(T slot) => _handler?.OnSlotEnter(_type, slot.Index);
-        public void OnSlotExit(T slot) => _handler?.OnSlotExit(_type, slot.Index);
+        public void OnSlotClick(int index) => _handler?.OnSlotClick(_type, index);
+        public void OnSlotEnter(int index) => _handler?.OnSlotEnter(_type, index);
+        public void OnSlotExit(int index) => _handler?.OnSlotExit(_type, index);
     }
 }
