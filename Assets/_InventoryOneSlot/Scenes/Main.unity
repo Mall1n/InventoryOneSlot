@@ -1888,6 +1888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485727801}
   - component: {fileID: 485727802}
+  - component: {fileID: 485727804}
   - component: {fileID: 485727803}
   m_Layer: 5
   m_Name: Icon View Player
@@ -1942,6 +1943,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!114 &485727804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485727800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62fcd9ad8db1c5f46ade623ef40c0c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.Logic.DragAndDropPresenter
+  _iconView: {fileID: 485727802}
 --- !u!1001 &515323987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2935,6 +2949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 797047482}
   - component: {fileID: 797047483}
+  - component: {fileID: 797047485}
   - component: {fileID: 797047484}
   m_Layer: 5
   m_Name: Player Inventory Presenter
@@ -2972,9 +2987,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 797047481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233bc1a3167344841a048055d80f16c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 480bc2c09ce5ff645bdc129effeef61d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.InventoryPlayerPresenterUI
+  _view: {fileID: 797047485}
+--- !u!225 &797047484
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797047481}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &797047485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797047481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11166f8764e07c468efc2bd157ae029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.UI.InventoryView
+  _type: 0
   _slots:
   - {fileID: 562350961}
   - {fileID: 1340273369}
@@ -3001,18 +3042,6 @@ MonoBehaviour:
   - {fileID: 267358539}
   - {fileID: 1006665919}
   - {fileID: 168266969}
---- !u!225 &797047484
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 797047481}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!1001 &818665596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3298,6 +3327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 898691727}
   - component: {fileID: 898691729}
+  - component: {fileID: 898691730}
   - component: {fileID: 898691728}
   m_Layer: 5
   m_Name: Chest Presenter
@@ -3347,9 +3377,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 898691726}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76d6d2c5a98b3f2488f835ae1436f75c, type: 3}
+  m_Script: {fileID: 11500000, guid: 480bc2c09ce5ff645bdc129effeef61d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.ChestPresenterUI
+  _view: {fileID: 898691730}
+--- !u!114 &898691730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898691726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11166f8764e07c468efc2bd157ae029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.UI.InventoryView
+  _type: 1
   _slots:
   - {fileID: 1202063901}
   - {fileID: 1619165654}
@@ -4177,6 +4221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171949476}
   - component: {fileID: 1171949477}
+  - component: {fileID: 1171949478}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4211,6 +4256,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6191fa516b07dbd4391b150793ecd78a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  _playerInventory: {fileID: 1171949478}
+--- !u!114 &1171949478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171949475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fbaa068e3e2a2747a949c7f9b49878d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _inventory:
+    rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!1001 &1202063899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5843,9 +5908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a3e4b375e9be764caaa2da67fadda9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _inventoryViewPlayer: {fileID: 797047483}
-  _inventoryViewChest: {fileID: 898691729}
-  _iconManager: {fileID: 485727802}
+  _inventoryPresenterPlayer: {fileID: 797047483}
+  _inventoryPresenterChest: {fileID: 898691729}
+  _dragAndDropPresenter: {fileID: 485727804}
 --- !u!225 &1655673926
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -6255,8 +6320,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f35078e6934a89b4eb4251344ec92d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  dataBase: {fileID: 1764275360}
-  playerCanvas: {fileID: 1786391951}
+  _player: {fileID: 1171949477}
+  _dataBase: {fileID: 1764275360}
+  _playerData: {fileID: 11400000, guid: b081445281694ec4d85e3809cee5565f, type: 2}
+  _playerCanvas: {fileID: 1786391951}
 --- !u!114 &1764275360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6269,7 +6336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b13cb744aef4c642adf253bfad7ecf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryOneSlot.Data.DataBase
-  dataBase: {fileID: 0}
+  dataBase: {fileID: 11400000, guid: 72c40ce8d4cf3e244846c1900e35004c, type: 2}
 --- !u!1001 &1782925109
 PrefabInstance:
   m_ObjectHideFlags: 0

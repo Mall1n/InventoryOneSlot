@@ -2,50 +2,39 @@ using UnityEngine;
 
 namespace InventoryOneSlot.UI
 {
-    public enum InventoryType
-    {
-        Player = 0,
-        Chest = 1
-    }
-
     [RequireComponent(typeof(CanvasGroup))]
     public class InventoryView : MonoBehaviour
     {
-        [SerializeField] protected InteractiveSlot[] _slots;
+        [SerializeField] private InventoryType _type;
+        [SerializeField] private InteractiveSlot[] _slots;
 
-        protected IInventoryActionsHandler _handler;
-        protected InventoryType _type;
+        private CanvasGroup _canvasGroup;
 
-        protected CanvasGroup _canvasGroup;
-
-        protected virtual void Awake()
+        private void Awake()
         {
             _canvasGroup = GetComponent<CanvasGroup>();
         }
 
-        public virtual void Init(IInventoryActionsHandler handler, InventoryType type)
+        public void Init(IInventoryActionsHandler handler)
         {
-            _handler = handler;
-            _type = type;
-
-            var wrapper = new SlotActionsWrapper(handler, type);
+            var wrapper = new SlotActionsWrapper(handler, _type);
             for (int i = 0; i < _slots.Length; i++)
             {
                 _slots[i].Init(i, wrapper);
             }
         }
 
-        public virtual void Open()
+        public void Open()
         {
             SetCanvasActive(true);
         }
 
-        public virtual void Close()
+        public void Close()
         {
             SetCanvasActive(false);
         }
 
-        protected virtual void SetCanvasActive(bool active)
+        private void SetCanvasActive(bool active)
         {
             if (active)
             {

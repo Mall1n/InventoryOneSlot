@@ -2,20 +2,29 @@
 using UnityEngine;
 
 using InventoryOneSlot.UI;
+using InventoryOneSlot.Logic.Core;
 
 namespace InventoryOneSlot.Logic
 {
-    public class DragAndDropPresenter
+    public class DragAndDropPresenter : MonoBehaviour
     {
-        private readonly IconView _iconView;
-        private readonly InputSystem_Actions _inputActions;
+        [SerializeField] private IconView _iconView;
+
+        private InputSystem_Actions _inputActions;
 
         private bool _isActive = false;
 
-        public DragAndDropPresenter(IconView iconView, InputSystem_Actions inputActions)
+        private void Awake()
         {
-            _iconView = iconView;
-            _inputActions = inputActions;
+            _inputActions = PlayerInputManager.Instance.InputActions;
+        }
+
+        public void Update()
+        {
+            if (!_isActive) return;
+
+            Vector2 mousePos = _inputActions.UI.Point.ReadValue<Vector2>();
+            _iconView.SetPosition(mousePos);
         }
 
         public void SetIcon(Sprite icon)
@@ -32,14 +41,6 @@ namespace InventoryOneSlot.Logic
 
             _iconView.Disable();
             _iconView.ResetIcon();
-        }
-
-        public void Tick()
-        {
-            if (!_isActive) return;
-
-            Vector2 mousePos = _inputActions.UI.Point.ReadValue<Vector2>();
-            _iconView.SetPosition(mousePos);
         }
     }
 }

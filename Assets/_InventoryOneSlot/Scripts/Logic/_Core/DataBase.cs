@@ -13,7 +13,7 @@ namespace InventoryOneSlot.Logic.Core
 
         private void Awake()
         {
-            List<ItemData> listItems = (List<ItemData>)dataBase.Items;
+            IReadOnlyList<ItemData> listItems = dataBase.Items;
 
             foreach (ItemData itemData in listItems)
             {
