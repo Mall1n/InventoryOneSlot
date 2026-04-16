@@ -1,5 +1,6 @@
-using InventoryOneSlot.Data;
 using UnityEngine;
+
+using InventoryOneSlot.Data;
 
 namespace InventoryOneSlot.Logic.Core
 {
