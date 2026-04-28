@@ -3,17 +3,15 @@ namespace InventoryOneSlot.UI
 {
     public interface ISlotActionsHandler
     {
-        void OnSlotClick(int index);
-
-        void OnSlotEnter(int index);
-
-        void OnSlotExit(int index);
+        void OnSlotClick(InteractiveSlot slot);
+        void OnSlotEnter(InteractiveSlot slot);
+        void OnSlotExit(InteractiveSlot slot);
     }
 
     public interface IInventoryActionsHandler
     {
-        void OnSlotClick(InventoryType type, int index);
-        void OnSlotEnter(InventoryType type, int index);
-        void OnSlotExit(InventoryType type, int index);
+        void OnSlotClick(InventoryType type, InteractiveSlot slot);
+        void OnSlotEnter(InventoryType type, InteractiveSlot slot);
+        void OnSlotExit(InventoryType type, InteractiveSlot slot);
     }
 }

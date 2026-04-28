@@ -10,6 +10,8 @@ namespace InventoryOneSlot.UI
 
         private CanvasGroup _canvasGroup;
 
+        public InventoryType Type { get => _type; }
+
         private void Awake()
         {
             _canvasGroup = GetComponent<CanvasGroup>();
@@ -61,8 +63,8 @@ namespace InventoryOneSlot.UI
             _type = type;
         }
 
-        public void OnSlotClick(int index) => _handler?.OnSlotClick(_type, index);
-        public void OnSlotEnter(int index) => _handler?.OnSlotEnter(_type, index);
-        public void OnSlotExit(int index) => _handler?.OnSlotExit(_type, index);
+        public void OnSlotClick(InteractiveSlot slot) => _handler?.OnSlotClick(_type, slot);
+        public void OnSlotEnter(InteractiveSlot slot) => _handler?.OnSlotEnter(_type, slot);
+        public void OnSlotExit(InteractiveSlot slot) => _handler?.OnSlotExit(_type, slot);
     }
 }

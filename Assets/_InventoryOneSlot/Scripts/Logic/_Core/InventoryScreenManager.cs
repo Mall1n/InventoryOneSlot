@@ -2,6 +2,7 @@ using UnityEngine;
 
 using InventoryOneSlot.UI;
 using InventoryOneSlot.Data;
+using System.Collections.Generic;
 
 namespace InventoryOneSlot.Logic.Core
 {
@@ -16,7 +17,7 @@ namespace InventoryOneSlot.Logic.Core
 
         private CanvasGroup _canvasGroup;
 
-        // add dictionary <InventoryType, InventoryPresenter>
+        private readonly Dictionary <InventoryType, InventoryPresenter> _inventoriesDict = new();
 
         private void Awake()
         {
@@ -24,6 +25,14 @@ namespace InventoryOneSlot.Logic.Core
 
             _inventoryPresenterPlayer.Init(this);
             _inventoryPresenterChest.Init(this);
+
+            InitInventoriesDict();
+        }
+
+        private void InitInventoriesDict()
+        {
+            _inventoriesDict[_inventoryPresenterPlayer.InventoryType] = _inventoryPresenterPlayer;
+            _inventoriesDict[_inventoryPresenterChest.InventoryType] = _inventoryPresenterChest;
         }
 
         public void PlayerInventoryOpen()
@@ -43,19 +52,19 @@ namespace InventoryOneSlot.Logic.Core
             _inventoryPresenterChest.Close();
         }
 
-        public void OnSlotClick(InventoryType type, int index)
+        public void OnSlotClick(InventoryType type, InteractiveSlot slot)
         {
-            print($"InventoryType = {type} | index = {index} | Action = {nameof(OnSlotClick)}");
+            print($"InventoryType = {type} | index = {slot.Index} | Action = {nameof(OnSlotClick)}");
         }
 
-        public void OnSlotEnter(InventoryType type, int index)
+        public void OnSlotEnter(InventoryType type, InteractiveSlot slot)
         {
-            print($"InventoryType = {type} | index = {index} | Action = {nameof(OnSlotEnter)}");
+            print($"InventoryType = {type} | index = {slot.Index} | Action = {nameof(OnSlotEnter)}");
         }
 
-        public void OnSlotExit(InventoryType type, int index)
+        public void OnSlotExit(InventoryType type, InteractiveSlot slot)
         {
-            print($"InventoryType = {type} | index = {index} | Action = {nameof(OnSlotExit)}");
+            print($"InventoryType = {type} | index = {slot.Index} | Action = {nameof(OnSlotExit)}");
         }
     }
 }

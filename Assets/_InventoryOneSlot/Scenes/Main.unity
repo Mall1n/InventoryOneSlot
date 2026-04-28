@@ -132,14 +132,6 @@ PrefabInstance:
       value: Inventory Slot Variant (13)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -170,26 +162,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -250,14 +222,6 @@ PrefabInstance:
       value: Inventory Slot Variant (12)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -288,26 +252,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -363,14 +307,6 @@ PrefabInstance:
       value: Inventory Slot Variant (9)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -401,26 +337,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -589,14 +505,6 @@ PrefabInstance:
       value: Inventory Slot Variant (25)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -627,26 +535,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -815,14 +703,6 @@ PrefabInstance:
       value: Inventory Slot Variant (23)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -853,26 +733,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -928,14 +788,6 @@ PrefabInstance:
       value: Inventory Slot Variant (21)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -966,26 +818,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1552,14 +1384,6 @@ PrefabInstance:
       value: Inventory Slot Variant (11)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -1590,26 +1414,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1778,14 +1582,6 @@ PrefabInstance:
       value: Inventory Slot Variant (7)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -1816,26 +1612,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2308,14 +2084,6 @@ PrefabInstance:
       value: Inventory Slot Variant (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -2346,26 +2114,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2534,14 +2282,6 @@ PrefabInstance:
       value: Inventory Slot Variant (20)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -2572,26 +2312,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2647,14 +2367,6 @@ PrefabInstance:
       value: Inventory Slot Variant (17)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -2685,26 +2397,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2760,14 +2452,6 @@ PrefabInstance:
       value: Inventory Slot Variant (18)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -2798,26 +2482,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3055,14 +2719,6 @@ PrefabInstance:
       value: Inventory Slot Variant (5)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -3093,26 +2749,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3546,14 +3182,6 @@ PrefabInstance:
       value: Inventory Slot Variant (6)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -3584,26 +3212,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3659,14 +3267,6 @@ PrefabInstance:
       value: Inventory Slot Variant (14)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -3697,26 +3297,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3885,14 +3465,6 @@ PrefabInstance:
       value: Inventory Slot Variant (4)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -3923,26 +3495,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3998,14 +3550,6 @@ PrefabInstance:
       value: Inventory Slot Variant (24)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -4036,26 +3580,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5244,14 +4768,6 @@ PrefabInstance:
       value: Inventory Slot Variant (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -5282,26 +4798,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5643,14 +5139,6 @@ PrefabInstance:
       value: Inventory Slot Variant (19)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -5681,26 +5169,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6580,14 +6048,6 @@ PrefabInstance:
       value: Inventory Slot Variant (10)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -6618,26 +6078,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6693,14 +6133,6 @@ PrefabInstance:
       value: Inventory Slot Variant (15)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -6731,26 +6163,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6806,14 +6218,6 @@ PrefabInstance:
       value: Inventory Slot Variant (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -6844,26 +6248,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6919,14 +6303,6 @@ PrefabInstance:
       value: Inventory Slot Variant (22)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -6957,26 +6333,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -7032,14 +6388,6 @@ PrefabInstance:
       value: Inventory Slot Variant (8)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -7070,26 +6418,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -7354,14 +6682,6 @@ PrefabInstance:
       value: Inventory Slot Variant (16)
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -7392,26 +6712,6 @@ PrefabInstance:
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2963323336806772555, guid: f96b097767f1df54499719a317fa5cf1, type: 3}
       propertyPath: m_AnchoredPosition.x

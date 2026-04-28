@@ -12,6 +12,8 @@ namespace InventoryOneSlot.Logic
 
         private InventoryData _data;
 
+        public InventoryType InventoryType => _view.Type;
+
         public void Init(IInventoryActionsHandler handler)
         {
             _view.Init(handler);
